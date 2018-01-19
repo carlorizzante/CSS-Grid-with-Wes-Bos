@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.7.0] - 2018-01-19
+### Added
+- 07 - Sizing tracks in CSS Grid/sizing-tracks-01.html
+- 07 - Sizing tracks in CSS Grid/sizing-tracks-START.html
+- 07 - Sizing tracks in CSS Grid/sizing-tracks-FINISHED.html
+
 ## [0.6.0] - 2018-01-19
 ### Added
 - 06 - CSS grid-auto-flow Explained/autoflow-01.html
