@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.0] - 2018-01-19
+### Added
+- 04 - CSS Grid Dev Tools/dev-tools-01.html
+- 04 - CSS Grid Dev Tools/dev-tools-START.html
+- 04 - CSS Grid Dev Tools/dev-tools-FINISHED.html
+
 ## [0.1.0] - 2018-01-19
 ### Added
 - 02 - Starter Files and Tooling Setup/test-START.html
