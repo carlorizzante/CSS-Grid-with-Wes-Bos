@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>CSS Grid Fundamentals!</title>
+
+  <style>
+    :root {
+      --yellow: #ffc600;
+      --black: #272727;
+      --cream: #f0f0f0;
+
+      --gap: 20px;
+      --column4: calc(calc(100% / 4) - calc(calc(3/4) * var(--gap)));
+      --column3: calc(calc(100% / 3) - calc(calc(2/3) * var(--gap)));
+
+      --columns-count: 6;
+      --calc-gap: calc(calc(calc(var(--columns-count) - 1) / var(--columns-count) * var(--gap)));
+      --column-width: calc(100% / var(--columns-count) - var(--calc-gap));
+    }
+    .container {
+      margin-bottom: 60px;
+      display: grid;
+      grid-gap: var(--gap);
+      background-color: teal;
+    }
+    .container-1 {
+      /* grid-template-columns: 100px 100px 100px 100px; */
+      /* grid-template-columns: 25% 25% 25% 25%; */
+      /* grid-template-columns: calc(25% - 20px) calc(25% - 20px)calc(25% - 20px)calc(25% - 20px); */
+      /* grid-template-columns: var(--column-width) var(--column-width) var(--column-width) var(--column-width); */
+      grid-template-columns: repeat(3, var(--column3));
+    }
+    .container-2 {
+      grid-template-columns: repeat(var(--columns-count), var(--column-width));
+    }
+    .container-3 {
+      grid-template-columns: 25% auto 10% 100px;
+    }
+    .container-4 {
+      grid-template-columns: 25% auto 10% auto;
+      grid-template-rows: repeat(2, 200px auto 100px);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container container-1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+  </div>
+  <div class="container container-2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+  </div>
+  <div class="container container-3">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+  </div>
+  <div class="container container-4">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+    <div class="item">13</div>
+    <div class="item">14</div>
+    <div class="item">15</div>
+    <div class="item">16</div>
+    <div class="item">17</div>
+    <div class="item">18</div>
+    <div class="item">19</div>
+    <div class="item">20</div>
+    <div class="item">21</div>
+    <div class="item">22</div>
+    <div class="item">23</div>
+    <div class="item">24</div>
+  </div>
+</body>
+
+</html>
