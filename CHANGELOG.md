@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.6.0] - 2018-01-19
+### Added
+- 06 - CSS grid-auto-flow Explained/autoflow-01.html
+- 06 - CSS grid-auto-flow Explained/autoflow-START.html
+- 06 - CSS grid-auto-flow Explained/autoflow-FINISHED.html
+
 ## [0.5.0] - 2018-01-19
 ### Added
 - 05 - CSS Grid Implicit vs Explicit Tracks/implicit-vs-explicit-01.html
