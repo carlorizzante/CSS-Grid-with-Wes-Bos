@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.10.0] - 2018-01-22
+### Added
+- 10 - Placing Grid Items/placing-01.HTML
+- 10 - Placing Grid Items/placing-START.HTML
+- 10 - Placing Grid Items/placing-FINISHED.HTML
+
 ## [0.9.0] - 2018-01-22
 ### Added
 - 09 - Sizing Grid Items/sizing-items-01.html

@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.9.0
+Release 0.10.0
 
 Having some fun with CSS Grids.
 
@@ -12,3 +12,4 @@ Having some fun with CSS Grids.
 - 07 - Sizing tracks in CSS Grid
 - 08 - CSS Grid repeat function
 - 09 - Sizing Grid Items
+- 10 - Placing Grid Items

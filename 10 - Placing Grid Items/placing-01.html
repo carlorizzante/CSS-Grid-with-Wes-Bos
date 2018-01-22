@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Placing Grid Items!</title>
+
+  <style>
+    .container {
+      margin-bottom: 60px;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .item-hej {
+      /* grid-column: span 2; */
+      grid-column-start: 2;
+      grid-column-end: 5;
+      background-color: #bada55;
+    }
+    .item11 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      background-color: var(--cream);
+    }
+    .item12 {
+      grid-column: 2/5;
+      background-color: var(--cream);
+    }
+    .item13 {
+      grid-column: 1;
+      grid-row: span 3;
+    }
+    .item16,
+    .item17 {
+      grid-row: span 2;
+    }
+    .item18 {
+      grid-column: 2 / span 2;
+    }
+    .item19 {
+      grid-column: span 3 / 5;
+    }
+    .item26 {
+      grid-column: 2 / -2;
+    }
+    .item27 {
+      grid-column: 1 / -1;
+    }
+    .item6b {
+      grid-column: span 3;
+      grid-row: span 5;
+    }
+    .item19b {
+      grid-column: span 3;
+      grid-row: span 4;
+    }
+    .item24b {
+      grid-row: span 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    <div class="item item7">7</div>
+    <div class="item item8">8</div>
+    <div class="item item9">9</div>
+    <div class="item item10">10</div>
+    <div class="item item-hej">hej</div>
+    <div class="item item11">11</div>
+    <div class="item item12">12</div>
+    <div class="item item13">13</div>
+    <div class="item item14">14</div>
+    <div class="item item15">15</div>
+    <div class="item item16">16</div>
+    <div class="item item17">17</div>
+    <div class="item item18">18</div>
+    <div class="item item19">19</div>
+    <div class="item item20">20</div>
+    <div class="item item21">21</div>
+    <div class="item item22">22</div>
+    <div class="item item23">23</div>
+    <div class="item item24">24</div>
+    <div class="item item25">25</div>
+    <div class="item item26">26</div>
+    <div class="item item27">27</div>
+    <div class="item item28">28</div>
+    <div class="item item29">29</div>
+    <div class="item item30">30</div>
+    <div class="item item31">31</div>
+    <div class="item item32">32</div>
+  </div>
+
+  <div class="container">
+    <div class="item item1b">1</div>
+    <div class="item item2b">2</div>
+    <div class="item item3b">3</div>
+    <div class="item item4b">4</div>
+    <div class="item item5b">5</div>
+    <div class="item item6b">6</div>
+    <div class="item item7b">7</div>
+    <div class="item item8b">8</div>
+    <div class="item item9b">9</div>
+    <div class="item item10b">10</div>
+    <div class="item item11b">11</div>
+    <div class="item item12b">12</div>
+    <div class="item item13b">13</div>
+    <div class="item item14b">14</div>
+    <div class="item item15b">15</div>
+    <div class="item item16b">16</div>
+    <div class="item item17b">17</div>
+    <div class="item item18b">18</div>
+    <div class="item item19b">19</div>
+    <div class="item item20b">20</div>
+    <div class="item item21b">21</div>
+    <div class="item item22b">22</div>
+    <div class="item item23b">23</div>
+    <div class="item item24b">24</div>
+    <div class="item item25b">25</div>
+    <div class="item item26b">26</div>
+    <div class="item item27b">27</div>
+    <div class="item item28b">28</div>
+    <div class="item item29b">29</div>
+    <div class="item item30b">30</div>
+    <div class="item item31b">31</div>
+    <div class="item item32b">32</div>
+  </div>
+</body>
+
+</html>
