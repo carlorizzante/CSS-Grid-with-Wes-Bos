@@ -15,3 +15,4 @@ Having some fun with CSS Grids.
 - 10 - Placing Grid Items
 - 11 - Spanning and Placing Cardio
 - 12 - auto-fit and auto-fill
+- 13 - Using minmax() for Responsive Grids

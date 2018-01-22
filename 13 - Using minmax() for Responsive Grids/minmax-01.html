@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Using minmax() for Responsive Grids!</title>
+
+  <style>
+    .container {
+      display: grid;
+      grid-gap: 20px;
+      background: teal;
+      margin-bottom: 60px;
+    }
+    .item {
+      font-size: 2rem;
+    }
+    .container-1 {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .container-2 {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .container-3 {
+        grid-template-columns: auto 1fr 1fr 1fr;
+    }
+    .container-4 {
+        grid-template-columns: fit-content(150px) 1fr 1fr 1fr;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container container-1">
+    <div class="item item1">Home</div>
+    <div class="item item2">About</div>
+    <div class="item item3">Features</div>
+    <div class="item item4">Contact</div>
+  </div>
+  <div class="container container-2">
+    <div class="item item1">Home</div>
+    <div class="item item2">About</div>
+    <div class="item item3">Features</div>
+    <div class="item item4">Contact</div>
+  </div>
+  <div class="container container-3">
+    <div class="item item1">Home</div>
+    <div class="item item2">About</div>
+    <div class="item item3">Features</div>
+    <div class="item item4">Contact</div>
+  </div>
+  <div class="container container-4">
+    <div class="item item1">Home</div>
+    <div class="item item2">About</div>
+    <div class="item item3">Features</div>
+    <div class="item item4">Contact</div>
+  </div>
+</body>
+
+</html>
