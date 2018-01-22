@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.9.0] - 2018-01-22
+### Added
+- 09 - Sizing Grid Items/sizing-items-01.html
+- 09 - Sizing Grid Items/sizing-items-START.html
+- 09 - Sizing Grid Items/sizing-items-FINISHED.html
+
 ## [0.8.0] - 2018-01-22
 ### Added
 - 08 - CSS Grid repeat function/repeat-01.hyml
