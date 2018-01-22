@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.8.0] - 2018-01-22
+### Added
+- 08 - CSS Grid repeat function/repeat-01.hyml
+- 08 - CSS Grid repeat function/repeat-START.hyml
+- 08 - CSS Grid repeat function/repeat-FINISHED.hyml
+
 ## [0.7.0] - 2018-01-19
 ### Added
 - 07 - Sizing tracks in CSS Grid/sizing-tracks-01.html
