@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.11.0
+Release 0.12.0
 
 Having some fun with CSS Grids.
 
@@ -14,3 +14,4 @@ Having some fun with CSS Grids.
 - 09 - Sizing Grid Items
 - 10 - Placing Grid Items
 - 11 - Spanning and Placing Cardio
+- 12 - auto-fit and auto-fill

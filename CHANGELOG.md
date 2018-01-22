@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.12.0] - 2018-01-22
+### Added
+- 12 - auto-fit and auto-fill/auto-fit-and-auto-fill-01.html
+- 12 - auto-fit and auto-fill/auto-fit-and-auto-fill-START.html
+- 12 - auto-fit and auto-fill/auto-fit-and-auto-fill-FINISHED.html
+
 ## [0.11.0] - 2018-01-22
 ### Added
 - 11 - Spanning and Placing Cardio/get-sweaty-01.html
