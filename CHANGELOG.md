@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.14.0] - 2018-01-22
+### Added
+- 14 - Grid Template Areas/area-line-names-01.html
+- 14 - Grid Template Areas/area-line-names-START.html
+- 14 - Grid Template Areas/area-line-names-FINISHED.html
+- 14 - Grid Template Areas/areas-01.html
+- 14 - Grid Template Areas/areas-START.html
+- 14 - Grid Template Areas/areas-FINISHED.html
+
 ## [0.13.0] - 2018-01-22
 ### Added
 - 13 - Using minmax() for Responsive Grids/minmax-01.html
