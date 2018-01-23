@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.17.0] - 2018-01-23
+### Added
+- 17 - CSS Grid Alignment + Centering/alignment-and-centering-01.html
+- 17 - CSS Grid Alignment + Centering/alignment-and-centering-START.html
+- 17 - CSS Grid Alignment + Centering/alignment-and-centering-FINISHED.html
+
 ## [0.16.0] - 2018-01-23
 ### Added
 - 16 - grid-auto-flow dense Block Fitting/dense-01.html
