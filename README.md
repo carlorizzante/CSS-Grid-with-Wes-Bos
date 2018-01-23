@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.17.0
+Release 0.18.0
 
 Having some fun with CSS Grids.
 
@@ -20,3 +20,4 @@ Having some fun with CSS Grids.
 - 15 - Naming Lines in CSS Grid
 - 16 - grid-auto-flow dense Block Fitting
 - 17 - CSS Grid Alignment + Centering
+- 18 - Re-ordering Grid Items

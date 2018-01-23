@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.18.0] -2018-01-23
+### Added
+- 18 - Re-ordering Grid Items/order-01.html
+- 18 - Re-ordering Grid Items/order-START.html
+- 18 - Re-ordering Grid Items/order-FINISH.html
+
 ## [0.17.0] - 2018-01-23
 ### Added
 - 17 - CSS Grid Alignment + Centering/alignment-and-centering-01.html

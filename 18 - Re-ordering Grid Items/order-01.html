@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Re-ordering Grid Items!</title>
+
+  <style>
+    .container {
+      margin-bottom: 60px;
+      background: teal;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    .content {
+      font-size: 2rem;
+      font-weight: normal;
+    }
+    .container-1 .logo {
+      grid-column: span 4;
+    }
+    .container-1 .nav {
+      grid-column: span 8;
+    }
+    .container-1 .content {
+      grid-column: 1 / -1;
+    }
+    .container-2 .logo {
+      grid-column: span 4;
+    }
+    .container-2 .nav {
+      grid-column: span 8;
+      /* order: 1; */
+    }
+    .container-2 .content {
+      grid-column: 1 / -1;
+      order: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container container-1">
+    <div class="item logo">LOGO</div>
+    <div class="item nav">NAV</div>
+    <div class="item content">
+      <h2>Lorem Ipsusm!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt esse soluta aspernatur facere? Repellendus pariatur, animi aperiam accusamus nobis enim velit consectetur dolore sequi blanditiis ab iusto, sit obcaecati architecto.</p>
+    </div>
+  </div>
+  <div class="container container-2">
+    <div class="item logo">LOGO</div>
+    <div class="item nav">NAV</div>
+    <div class="item content">
+      <h2>Lorem Ipsusm!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt esse soluta aspernatur facere? Repellendus pariatur, animi aperiam accusamus nobis enim velit consectetur dolore sequi blanditiis ab iusto, sit obcaecati architecto.</p>
+    </div>
+  </div>
+</body>
+
+</html>
