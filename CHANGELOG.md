@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.16.0] - 2018-01-23
+### Added
+- 16 - grid-auto-flow dense Block Fitting/dense-01.html
+- 16 - grid-auto-flow dense Block Fitting/dense-START.html
+- 16 - grid-auto-flow dense Block Fitting/dense-FINISHED.html
+
 ## [0.15.0] - 2018-01-23
 ### Added
 - 15 - Naming Lines in CSS Grid/naming-lines-01.html
