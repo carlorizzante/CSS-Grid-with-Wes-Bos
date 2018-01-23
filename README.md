@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.14.0
+Release 0.15.0
 
 Having some fun with CSS Grids.
 
@@ -17,3 +17,4 @@ Having some fun with CSS Grids.
 - 12 - auto-fit and auto-fill
 - 13 - Using minmax() for Responsive Grids
 - 14 - Grid Template Areas
+- 15 - Naming Lines in CSS Grid
