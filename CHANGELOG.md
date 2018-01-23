@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.19.0] - 2018-01-23
+### Added
+- 19 - Nesting Grid with Album Layouts/albums-01.html
+- 19 - Nesting Grid with Album Layouts/albums-02.html
+- 19 - Nesting Grid with Album Layouts/albums-START.html
+- 19 - Nesting Grid with Album Layouts/albums-FINISHED.html
+
 ## [0.18.0] -2018-01-23
 ### Added
 - 18 - Re-ordering Grid Items/order-01.html

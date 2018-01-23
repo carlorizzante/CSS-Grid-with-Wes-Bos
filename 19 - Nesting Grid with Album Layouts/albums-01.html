@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Nesting Grid with Album Layouts!</title>
+
+  <style>
+    .albums {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }
+    ul.albums, li.album {
+      margin: 0;
+      padding: 0;
+    }
+    li.album {
+      list-style: none;
+      background: rgba(255,255,255, 0.4);
+    }
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+    .album__details {
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul class="albums">
+    <li class="album">
+      <img src="../../../assets/collection/img_01.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Lorem ipsum dolor.</h2>
+        <p class="album__artist">Lorem ipsum dolor.</p>
+        <p class="album_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa harum dolore libero provident, ad, molestias veritatis officiis incidunt eaque magni alias praesentium fuga, vitae!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_02.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Minus, voluptates, earum?</h2>
+        <p class="album__artist">Nobis eum, fugit!</p>
+        <p class="album_text">Iusto cupiditate est totam ducimus impedit dolorum dicta officia, eos, neque. Harum eveniet, temporibus laborum doloremque distinctio aliquam suscipit ex accusamus velit voluptatem, corporis.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_03.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Repudiandae facere, nulla.</h2>
+        <p class="album__artist">Corporis quod, labore.</p>
+        <p class="album_text">At fugit deleniti nostrum soluta, id aut, culpa accusantium illo quibusdam voluptate magni nemo dolore quae quisquam tenetur repellat sit. Sapiente at, possimus. Consequuntur.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_04.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Reprehenderit, quasi nihil.</h2>
+        <p class="album__artist">Atque assumenda, saepe!</p>
+        <p class="album_text">Saepe facere debitis ratione necessitatibus dolorem quod reprehenderit, soluta ipsa, autem tempora mollitia suscipit. Quaerat magni necessitatibus omnis beatae eius? Reprehenderit aliquam ullam iure.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_05.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Eos, consequatur, pariatur.</h2>
+        <p class="album__artist">Doloribus, quae, accusantium!</p>
+        <p class="album_text">Tenetur quas qui, quia, voluptatum consequatur esse magnam fuga neque deleniti, labore porro, repudiandae velit sapiente dignissimos eaque rem commodi. Dolor perferendis debitis deserunt.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_06.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Voluptatibus, itaque, deleniti?</h2>
+        <p class="album__artist">Magnam, at, veritatis!</p>
+        <p class="album_text">Quod maxime quidem, nesciunt harum ducimus, voluptatem vitae reiciendis deserunt incidunt, temporibus assumenda id dolorum dolore atque neque eveniet dolorem hic a tempora molestiae.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_07.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Quas, commodi, sequi?</h2>
+        <p class="album__artist">Totam, odio, nesciunt.</p>
+        <p class="album_text">Quis error adipisci, nisi incidunt ullam harum, voluptatem ipsam sapiente, laboriosam, alias libero dolorem magni! Beatae minus, rem fuga esse id fugit cumque, ipsum.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_08.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Necessitatibus, praesentium, labore!</h2>
+        <p class="album__artist">Vitae, commodi, cum?</p>
+        <p class="album_text">Totam incidunt possimus dicta repellendus assumenda aperiam itaque, esse repellat hic quidem culpa vitae deserunt, harum veritatis magnam! Blanditiis vitae ipsa veniam laborum ea.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_09.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Explicabo eum, tempora.</h2>
+        <p class="album__artist">Veniam, hic, quasi.</p>
+        <p class="album_text">Dolorum, reiciendis ipsa, ex veniam pariatur suscipit tenetur placeat aliquam quae culpa repudiandae. Vero obcaecati harum corrupti, nesciunt quidem distinctio est placeat. Voluptatum, quibusdam?</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_10.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Distinctio, accusantium impedit!</h2>
+        <p class="album__artist">Possimus laboriosam, iste?</p>
+        <p class="album_text">Dolores suscipit, dignissimos voluptatum. Eligendi, cupiditate, eum. Officia animi, quasi quia inventore magni maiores. Nisi minima, obcaecati modi culpa voluptate expedita qui ducimus facere.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_11.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Maxime, ullam, quia.</h2>
+        <p class="album__artist">Voluptate impedit, nam.</p>
+        <p class="album_text">Quia consectetur culpa impedit blanditiis similique fuga atque eligendi eos veniam, enim ipsum ducimus quam voluptate, inventore reiciendis, natus. Porro iure illo harum quis.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_12.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Quia dolorem, maxime!</h2>
+        <p class="album__artist">Eum fuga, veniam.</p>
+        <p class="album_text">Veritatis labore suscipit, minus quidem pariatur tenetur assumenda tempore cupiditate asperiores, nisi repellat necessitatibus numquam dolorem eaque nihil quas nemo cum atque ipsam iusto.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_13.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Aspernatur, ipsa, modi.</h2>
+        <p class="album__artist">Maxime ex, aspernatur.</p>
+        <p class="album_text">Quibusdam modi eos officiis odit, tempora debitis unde repellendus, maiores atque quasi corporis voluptatum hic similique. Ullam iusto, nostrum hic, mollitia molestias illum a.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_14.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Numquam, quidem cum!</h2>
+        <p class="album__artist">Doloribus, fugit asperiores.</p>
+        <p class="album_text">Reiciendis voluptatum error, porro aspernatur officia odio aut cum laborum maiores in earum omnis ullam natus delectus! Unde quis officia dolorem ipsum quas. Provident.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_15.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Porro, ducimus, saepe.</h2>
+        <p class="album__artist">Dolor voluptate, similique?</p>
+        <p class="album_text">Commodi dolor recusandae molestias deserunt animi iure illum. Quisquam esse recusandae saepe iure, commodi porro maxime vitae dolore repellat qui nulla velit odit quia!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_16.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Doloremque, quis! Illo!</h2>
+        <p class="album__artist">Vitae, vel, qui.</p>
+        <p class="album_text">Sit maiores quisquam dignissimos. Iste labore magnam, magni perferendis rerum, maiores molestiae sed voluptate eos et, modi eveniet explicabo autem dolorum expedita sint reprehenderit.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_17.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Nisi, cum distinctio.</h2>
+        <p class="album__artist">Sint, veritatis, ratione!</p>
+        <p class="album_text">Soluta laboriosam possimus ipsa totam, molestiae laudantium eos nam natus a laborum repellendus rem, cumque delectus nesciunt libero velit vel ratione iure fugit quisquam.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_18.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Aliquam, vero repellendus.</h2>
+        <p class="album__artist">Inventore, dignissimos, dolore.</p>
+        <p class="album_text">In vitae non perspiciatis temporibus dolore maiores error, distinctio eius eligendi? Iste enim veritatis officia omnis aperiam incidunt iusto inventore vero, explicabo, magnam alias.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_19.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Veniam, adipisci accusantium.</h2>
+        <p class="album__artist">Quis, cum, et.</p>
+        <p class="album_text">Necessitatibus maxime fuga aut deleniti, expedita cum accusamus tempore qui, pariatur tenetur sunt dolorem quod repellat iusto earum. Vero, quis, error! Rerum, inventore, nesciunt?</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_20.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Totam placeat, pariatur.</h2>
+        <p class="album__artist">Maiores nobis, esse?</p>
+        <p class="album_text">Necessitatibus facilis aliquid aperiam, repellat itaque perspiciatis minima vero quos, tenetur nisi iure aliquam neque a, ipsum fuga doloremque pariatur. Molestiae officiis, at corrupti.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_21.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Explicabo, delectus ad.</h2>
+        <p class="album__artist">Repellat, nesciunt, autem!</p>
+        <p class="album_text">Optio corporis veritatis, magni repellat quod sint. Culpa a atque unde necessitatibus modi enim impedit, corporis eos facere ab excepturi. Dicta quod deserunt fuga.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_22.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Officia, fuga, iure.</h2>
+        <p class="album__artist">Repellendus, quod, cumque.</p>
+        <p class="album_text">Dicta pariatur a quasi commodi obcaecati nisi doloremque, atque laudantium, ipsa, quidem, impedit adipisci! Doloribus libero nesciunt non debitis, consequatur voluptas pariatur dolores sequi!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_23.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Sint itaque, consectetur?</h2>
+        <p class="album__artist">Ducimus accusamus, asperiores.</p>
+        <p class="album_text">Placeat reprehenderit eligendi consequatur reiciendis necessitatibus. Magnam quae deleniti iste sit autem voluptatibus aperiam rem perspiciatis excepturi vero, exercitationem! Laboriosam nam provident enim distinctio?</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_24.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Aut pariatur, voluptas!</h2>
+        <p class="album__artist">Nemo, sapiente, voluptate.</p>
+        <p class="album_text">Quibusdam delectus impedit, magni dolorum id eaque labore maiores voluptates dignissimos saepe. Provident, dolores, unde earum ipsa id recusandae! Qui, enim, voluptatem? Velit, non.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_25.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Soluta, blanditiis, animi!</h2>
+        <p class="album__artist">Quaerat, dolorum eius.</p>
+        <p class="album_text">Aliquam tempore tempora recusandae, nisi officia voluptatem accusamus necessitatibus dolorum quis sit minima harum, ducimus molestias maiores! Eligendi repellat officia eos incidunt, sed harum.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_26.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Esse corrupti, voluptas.</h2>
+        <p class="album__artist">Neque, aut aspernatur.</p>
+        <p class="album_text">Sed nostrum explicabo non fuga. Aut labore provident tenetur, delectus eius molestias ipsum odio dolores quisquam minus. Vitae obcaecati doloribus error praesentium. Quibusdam, dolorum?</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_27.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Velit, explicabo, aut.</h2>
+        <p class="album__artist">Culpa, iure, tempora.</p>
+        <p class="album_text">Numquam est blanditiis expedita tempore corporis soluta doloremque quibusdam non. Mollitia pariatur aut consequuntur quae, accusamus, itaque fuga sequi corrupti omnis, laudantium autem obcaecati!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_28.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Dolores, culpa, dignissimos.</h2>
+        <p class="album__artist">Laudantium, natus, earum!</p>
+        <p class="album_text">Alias provident magnam maxime nam consectetur praesentium ab repudiandae iste fugiat vel, cupiditate voluptates veniam earum quod sapiente assumenda, asperiores. Dolorum eum, recusandae nobis!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_29.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Quo, aspernatur, quia.</h2>
+        <p class="album__artist">Ex, libero, consectetur.</p>
+        <p class="album_text">Explicabo minus quidem praesentium tempora accusantium dignissimos, a veritatis velit provident quis illum similique aut eveniet, ex commodi modi suscipit ipsa, debitis unde accusamus!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_30.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Nisi, harum, debitis!</h2>
+        <p class="album__artist">A, ea laborum.</p>
+        <p class="album_text">Magni fugiat hic, nesciunt, adipisci cum pariatur molestiae nihil voluptatem officiis perferendis harum sint minus impedit eligendi nam quas a, placeat molestias, ipsum in.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_31.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Ipsa, quis, labore.</h2>
+        <p class="album__artist">Impedit eveniet, nobis.</p>
+        <p class="album_text">Quis temporibus esse, suscipit fugiat quisquam nam laudantium quo quasi, quidem facilis incidunt tempora ab ea recusandae voluptatibus ratione sed ex non eos aliquid!</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_32.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Delectus, enim, molestiae.</h2>
+        <p class="album__artist">Doloribus, corporis sequi.</p>
+        <p class="album_text">Sequi sunt assumenda nemo numquam quasi sed unde voluptatibus corporis perspiciatis in harum, impedit quod soluta perferendis doloremque quae earum similique quos possimus amet.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_33.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Nam, eligendi, ipsum.</h2>
+        <p class="album__artist">Numquam, fuga, natus!</p>
+        <p class="album_text">Eos enim commodi, veritatis, accusantium ea eveniet voluptatibus ipsa mollitia illo, natus dignissimos quidem, inventore. Necessitatibus, maiores praesentium ea ullam libero eveniet excepturi, placeat.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_34.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Deserunt, neque, minima.</h2>
+        <p class="album__artist">Ratione, iste, doloremque.</p>
+        <p class="album_text">Iure, accusamus, corporis! Delectus architecto accusantium obcaecati fuga consequuntur alias reiciendis molestiae ullam minus cupiditate aperiam optio enim, provident unde, necessitatibus ducimus in amet.</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_35.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Distinctio, aut, non.</h2>
+        <p class="album__artist">Quod, facilis minus.</p>
+        <p class="album_text">Deserunt, nostrum. Ex, cumque voluptates ducimus debitis nobis? Reiciendis temporibus officia velit quae. Enim quod vel quia minima natus repudiandae cum corrupti nostrum ipsum?</p>
+      </div>
+    </li>
+    <li class="album">
+      <img src="../../../assets/collection/img_36.jpg" alt="" class="album__artwork">
+      <div class="album__details">
+        <h2 class="album__title">Iusto, blanditiis quam!</h2>
+        <p class="album__artist">Id, facere, ab.</p>
+        <p class="album_text">Animi amet vitae blanditiis, alias ipsum modi ea aperiam dolore, repudiandae nam id iusto minus dolorum saepe non placeat vero rem nostrum, magni facilis!</p>
+      </div>
+    </li>
+  </ul>
+</body>
+
+</html>
