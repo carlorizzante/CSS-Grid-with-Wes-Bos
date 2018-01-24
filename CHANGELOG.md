@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.20.0] - 2018-01-24
+### Added
+- 20 - CSS Grid Image Gallery/image-gallery-01.html
+- 20 - CSS Grid Image Gallery/image-gallery-02.html
+- 20 - CSS Grid Image Gallery/image-gallery-03.html
+- 20 - CSS Grid Image Gallery/image-gallery-START.html
+- 20 - CSS Grid Image Gallery/image-gallery-FINISHED.html
+
+### Changed
+- /assets/collection -> /assets/gallery
+
+### Updated
+- 19 - Nesting Grid with Album Layouts/albums-01.html
+- 19 - Nesting Grid with Album Layouts/albums-02.html
+
 ## [0.19.0] - 2018-01-23
 ### Added
 - 19 - Nesting Grid with Album Layouts/albums-01.html

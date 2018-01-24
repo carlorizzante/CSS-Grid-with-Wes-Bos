@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.19.0
+Release 0.20.0
 
 Having some fun with CSS Grids.
 
@@ -22,3 +22,4 @@ Having some fun with CSS Grids.
 - 17 - CSS Grid Alignment + Centering
 - 18 - Re-ordering Grid Items
 - 19 - Nesting Grid with Album Layouts
+- 20 - CSS Grid Image Gallery
