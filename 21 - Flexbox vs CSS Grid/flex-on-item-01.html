@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Flexbox vs CSS Grid: Flex on Item!</title>
+
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto auto 1fr auto auto;
+      align-items: center;
+    }
+    .scrubber {
+      /* background: #BADA55; */
+      height: .1px;
+      min-width: 100px;
+      border-radius: 10px;
+      border-bottom: 1px dotted white;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+    }
+    .flex .scrubber {
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3 class="label">CSS Grid</h3>
+  <div class="controls grid">
+    <button>⏯️</button>
+    <button>🐢</button>
+    <button>🐰</button>
+    <div class="scrubber"></div>
+    <button>💬</button>
+    <button>🔽</button>
+  </div>
+
+  <h3 class="label">Flexbox</h3>
+  <div class="controls flex">
+    <button>⏯️</button>
+    <button>🐢</button>
+    <button>🐰</button>
+    <div class="scrubber"></div>
+    <button>💬</button>
+    <button>🔽</button>
+  </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Flexbox vs CSS Grid: Variable Widths on Each Row!</title>
+
+  <style>
+    .container {
+      /* max-width: 100%; */
+      background: rgba(255,255,255,0.3);
+    }
+    .grid {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
+    }
+    .grid > .item {
+
+    }
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -.5rem;
+      margin-left: -.5rem;
+    }
+    .flex .item {
+      margin: .5rem;
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <h3 class="label">CSS Grid</h3>
+  <div class="container grid">
+    <div class="item">Short</div>
+    <div class="item">Longerrrrrrrrrrrrrr</div>
+    <div class="item">💩</div>
+    <div class="item">This is Many Words</div>
+    <div class="item">Lorem, ipsum.</div>
+    <div class="item">10</div>
+    <div class="item">Snickers</div>
+    <div class="item">Wes Is Cool</div>
+    <div class="item">Short</div>
+  </div>
+
+  <h3 class="label">Flexbox</h3>
+  <div class="container flex">
+    <div class="item">Short</div>
+    <div class="item">Longerrrrrrrrrrrrrr</div>
+    <div class="item">💩</div>
+    <div class="item">This is Many Words</div>
+    <div class="item">Lorem, ipsum.</div>
+    <div class="item">10</div>
+    <div class="item">Snickers</div>
+    <div class="item">Wes Is Cool</div>
+    <div class="item">Short</div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Flexbox vs CSS Grid: Perfectly Centered!</title>
+
+  <style>
+    .hero {
+      height: 200px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .grid {
+      display: grid;
+      justify-items: center;
+      align-content: center;
+    }
+    .flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3 class="label">CSS Grid</h3>
+  <div class="hero grid">
+    <h2>Something Big Is Coming</h2>
+    <p>Get Ready...</p>
+  </div>
+
+  <h3 class="label">Flexbox</h3>
+  <div class="hero flex">
+    <h2>Something Big Is Coming</h2>
+    <p>Get Ready...</p>
+  </div>
+
+</body>
+
+</html>

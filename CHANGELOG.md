@@ -4,6 +4,37 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.21.0] - 2018-01-25
+### Added
+- 21 - Flexbox vs CSS Grid/axis-flipping-01.html
+- 21 - Flexbox vs CSS Grid/axis-flipping-START.html
+- 21 - Flexbox vs CSS Grid/axis-flipping-FINISHED.html
+- 21 - Flexbox vs CSS Grid/controls-on-right-01.html
+- 21 - Flexbox vs CSS Grid/controls-on-right-START.html
+- 21 - Flexbox vs CSS Grid/controls-on-right-FINISHED.html
+- 21 - Flexbox vs CSS Grid/flex-on-item-01.html
+- 21 - Flexbox vs CSS Grid/flex-on-item-START.html
+- 21 - Flexbox vs CSS Grid/flex-on-item-FINISHED.html
+- 21 - Flexbox vs CSS Grid/minmax.html
+- 21 - Flexbox vs CSS Grid/perfectly-centered-01.html
+- 21 - Flexbox vs CSS Grid/perfectly-centered-START.html
+- 21 - Flexbox vs CSS Grid/perfectly-centered-FINISHED.html
+- 21 - Flexbox vs CSS Grid/self-control-01.html
+- 21 - Flexbox vs CSS Grid/self-control-START.html
+- 21 - Flexbox vs CSS Grid/self-control-FINISHED.html
+- 21 - Flexbox vs CSS Grid/stacked-layout-01.html
+- 21 - Flexbox vs CSS Grid/stacked-layout-START.html
+- 21 - Flexbox vs CSS Grid/stacked-layout-FINISHED.html
+- 21 - Flexbox vs CSS Grid/unknown-content-size-01.html
+- 21 - Flexbox vs CSS Grid/unknown-content-size-START.html
+- 21 - Flexbox vs CSS Grid/unknown-content-size-FINISHED.html
+- 21 - Flexbox vs CSS Grid/unknown-number-of-items-01.html
+- 21 - Flexbox vs CSS Grid/unknown-number-of-items-START.html
+- 21 - Flexbox vs CSS Grid/unknown-number-of-items-FINISHED.html
+- 21 - Flexbox vs CSS Grid/variable-widths-each-row-01.html
+- 21 - Flexbox vs CSS Grid/variable-widths-each-row-START.html
+- 21 - Flexbox vs CSS Grid/variable-widths-each-row-FINISHED.html
+
 ## [0.20.0] - 2018-01-24
 ### Added
 - 20 - CSS Grid Image Gallery/image-gallery-01.html

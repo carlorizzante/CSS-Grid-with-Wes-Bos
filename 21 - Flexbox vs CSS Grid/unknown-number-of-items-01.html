@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Flexbox vs CSS Grid: Unknown Number of Items!</title>
+
+  <style>
+    .unknown {
+      background: teal;
+    }
+    .grid-1 {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: auto;
+      grid-auto-flow: column;
+    }
+    .grid-2 {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(54px, 1fr));
+    }
+    .flex-1 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .flex-1 .item {
+      flex: auto;
+      min-width: 54px;
+      margin: 0.5rem;
+    }
+    .flex-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .flex-2 .item {
+      flex: 1;
+      min-width: 54px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button onClick="addItem()">+ Add</button>
+
+  <h3 class="label">CSS Grid 1</h3>
+  <div class="unknown grid-1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h3 class="label">CSS Grid 2</h3>
+  <div class="unknown grid-2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h3 class="label">Flexbox 1</h3>
+  <div class="unknown flex-1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h3 class="label">Flexbox 2</h3>
+  <div class="unknown flex-2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <script>
+    const unknown = document.querySelectorAll('.unknown');
+    function addItem() {
+      unknown.forEach(item => item.innerHTML += `<div class="item">${item.childElementCount + 1}</div>`);
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Flexbox vs CSS Grid: Controls on Right!</title>
+
+  <style>
+  :root {
+    --cell: 40px;
+  }
+    .tracks {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
+    }
+    .track {
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+
+      display: grid;
+      grid-template-columns: repeat(1, auto var(--cell) var(--cell) var(--cell) );
+      align-items: center;
+    }
+    .track h2 {
+      padding: .3rem .5rem 0;
+    }
+    .track button {
+      margin: 0;
+      padding: .5rem .3rem 0;
+      background: white;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .track button:hover {
+      font-size: 2rem;
+      padding: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="tracks">
+    <div class="track">
+      <h2>The Future (Ft. The R.O.C.)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>Bounce With Me (Ft. Jermaine Dupri & Xscape)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>Puppy Love (Ft. Jagged Edge & Jermaine Dupri)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>You Know Me (Ft. Da Brat & Jermaine Dupri)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>The Dog in Me</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+    <div class="track">
+      <h2>Bow Wow (That's My Name) (Ft. Snoop Dogg)</h2>
+      <button>⭐</button>
+      <button>❤️</button>
+      <button>❌</button>
+    </div>
+  </div>
+</body>
+
+</html>
