@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.23.0] - 2018-01-26
+### Added
+- 23 - Bootstrappy Grid with CSS Variables/grid-01.html
+- 23 - Bootstrappy Grid with CSS Variables/grid-START.html
+- 23 - Bootstrappy Grid with CSS Variables/grid-FINISHED.html
+
 ## [0.22.0] - 2018-01-26
 ### Added
 - 22 - Recreating Codepen/codepen-01.html

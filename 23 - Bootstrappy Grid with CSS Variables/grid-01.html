@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrappy Grid with CSS Variables!</title>
+  <link rel="stylesheet" href="../assets/style.css">
+
+  <style>
+    .grid-1 {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    .grid-1 .item {
+      --span: 1;
+      --bg: darkcyan;
+      min-width: 0; /* fix inequal width on some columns */
+      grid-column: span var(--span);
+      background: var(--bg);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+    .grid-2 .item {
+      width: 100%;
+    }
+    .grid-2 .span3 {
+      grid-column: span 3;
+    }
+    .grid-2 .span4 {
+      grid-column: span 4;
+    }
+
+    .grid-3 {
+      --columns: 1;
+      --span: 1;
+      --bg: teal;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
+    }
+    .grid-3 .item {
+      grid-column: span var(--span);
+      background: var(--bg);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3 class="label">CSS Grid 1</h3>
+  <div class="grid-1">
+    <div class="item">1</div>
+    <div class="item">Hello there!</div>
+    <div class="item" style="--span:3; --bg:lime">3</div>
+    <div class="item" style="--span:4">4</div>
+  </div>
+
+  <h3 class="label">CSS Grid 2</h3>
+  <div class="grid-2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item span3">Hello there!</div>
+    <div class="item span4">4</div>
+  </div>
+
+  <h3 class="label">CSS Grid 3</h3>
+  <div class="grid-3"  style="--columns: 12; --span: 2; --bg: orange">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item" style="--span: 5">Hello there!</div>
+    <div class="item" style="--bg: rgba(255,255,255,0.9)">4</div>
+  </div>
+
+</body>
+</html>
