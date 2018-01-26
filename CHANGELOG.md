@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.22.0] - 2018-01-26
+### Added
+- 22 - Recreating Codepen/codepen-01.html
+- 22 - Recreating Codepen/codepen-START.html
+- 22 - Recreating Codepen/codepen-FINISHED.html
+- 22 - Recreating Codepen/style-01.css
+- 22 - Recreating Codepen/style-START.css
+- 22 - Recreating Codepen/style-FINISHED.css
+
 ## [0.21.0] - 2018-01-25
 ### Added
 - 21 - Flexbox vs CSS Grid/axis-flipping-01.html
