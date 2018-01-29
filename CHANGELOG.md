@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.24.0] - 2018-01-29
+### Added
+- 24 - Responsive Website/responsive-01.css
+- 24 - Responsive Website/responsive-01.html
+- 24 - Responsive Website/responsive-FINISHED.css
+- 24 - Responsive Website/responsive-FINISHED.html
+- 24 - Responsive Website/responsive-START.css
+- 24 - Responsive Website/responsive-START.html
+
 ## [0.23.0] - 2018-01-26
 ### Added
 - 23 - Bootstrappy Grid with CSS Variables/grid-01.html

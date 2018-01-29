@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="./responsive-01.css">
+  <title>Responsive Website!</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="top">
+      <header class="hero">
+        <h1>Terry's Taco Joint</h1>
+        <p>Pretty Good Tacos!</p>
+      </header>
+      <div class="cta cta1">
+        <p class="price">$1.99</p>
+        <p>Tacos</p>
+      </div>
+      <div class="cta cta2">
+        <p class="price">$3.99</p>
+        <p>Kombucha</p>
+      </div>
+
+    </div>
+    <nav class="menu">
+      <button aria-expanded="false" aria-controls="#menu-list">
+        <span class="open">☰</span>
+        <span class="close">×</span>
+        Menu
+      </button>
+      <ul id="menu-list">
+        <li><a href="">Tacos</a></li>
+        <li><a href="">Beers</a></li>
+        <li><a href="">Wines</a></li>
+        <li><a href="">Desserts</a></li>
+        <li><a href="">Reservations</a></li>
+      </ul>
+    </nav>
+
+    <section class="features">
+      <div class="feature">
+        <span class="icon">🌮</span>
+        <h3>Tacos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍺</span>
+        <h3>Beer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍷</span>
+        <h3>Wine</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🎵</span>
+        <h3>Music</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <img src="images/queso-taco.png" alt="Yummy Taco" class="about__mockup">
+      <div class="about__details">
+        <h2>Featured Taco</h2>
+        <p>Slim Profile, easy to hold and loaded with cheese.</p>
+        <p>This is the one you have been waiting for</p>
+        <button>Learn More →</button>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Instant Grams</h2>
+      <img src="../../assets/gallery/img_01.jpg" alt="">
+      <img src="../../assets/gallery/img_02.jpg" alt="">
+      <img src="../../assets/gallery/img_03.jpg" alt="">
+      <img src="../../assets/gallery/img_04.jpg" alt="">
+      <img src="../../assets/gallery/img_05.jpg" alt="">
+      <img src="../../assets/gallery/img_06.jpg" alt="">
+      <img src="../../assets/gallery/img_07.jpg" alt="">
+      <img src="../../assets/gallery/img_08.jpg" alt="">
+      <img src="../../assets/gallery/img_09.jpg" alt="">
+      <img src="../../assets/gallery/img_10.jpg" alt="">
+      <img src="../../assets/gallery/img_11.jpg" alt="">
+      <img src="../../assets/gallery/img_12.jpg" alt="">
+      <img src="../../assets/gallery/img_13.jpg" alt="">
+      <img src="../../assets/gallery/img_14.jpg" alt="">
+      <img src="../../assets/gallery/img_15.jpg" alt="">
+      <img src="../../assets/gallery/img_16.jpg" alt="">
+      <!-- <img src="../../assets/gallery/img_17.jpg" alt="">
+      <img src="../../assets/gallery/img_18.jpg" alt="">
+      <img src="../../assets/gallery/img_19.jpg" alt="">
+      <img src="../../assets/gallery/img_20.jpg" alt="">
+      <img src="../../assets/gallery/img_21.jpg" alt="">
+      <img src="../../assets/gallery/img_22.jpg" alt="">
+      <img src="../../assets/gallery/img_23.jpg" alt="">
+      <img src="../../assets/gallery/img_24.jpg" alt="">
+      <img src="../../assets/gallery/img_25.jpg" alt="">
+      <img src="../../assets/gallery/img_26.jpg" alt="">
+      <img src="../../assets/gallery/img_27.jpg" alt="">
+      <img src="../../assets/gallery/img_28.jpg" alt="">
+      <img src="../../assets/gallery/img_29.jpg" alt="">
+      <img src="../../assets/gallery/img_30.jpg" alt="">
+      <img src="../../assets/gallery/img_31.jpg" alt="">
+      <img src="../../assets/gallery/img_32.jpg" alt=""> -->
+    </section>
+  </div>
+
+  <script>
+    const navToggle = document.querySelector("button[aria-expanded]");
+    // const menu = document.querySelector(".menu > ul");
+    function toggleNav({target}) {
+      console.log("Toggling Nav!");
+      const expanded = target.getAttribute("aria-expanded") == "true";
+      // const controls = target.getAttribute("aria-controls");
+      target.setAttribute("aria-expanded", !expanded);
+    }
+    navToggle.addEventListener("click", toggleNav);
+  </script>
+
+</body>
+
+</html>
