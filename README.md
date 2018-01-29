@@ -1,7 +1,9 @@
 # CSS Grid with Wes Bos
-Release 0.25.0
+Release 0.25.1
 
 Having some fun with CSS Grids.
+
+Course generously offered by [Wes Bos](http://wesbos.com/) and [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) at [CSS GRID](https://cssgrid.io/).
 
 ## Index
 - 02 - Starter Files and Tooling Setup
