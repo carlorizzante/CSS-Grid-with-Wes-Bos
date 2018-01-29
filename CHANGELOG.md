@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.25.0] - 2018-01-29
+### Added
+- 25 - Full Bleed Blog Layout/full-bleed-blog-01.html
+- 25 - Full Bleed Blog Layout/full-bleed-blog-01.css
+- 25 - Full Bleed Blog Layout/full-bleed-blog-START.html
+- 25 - Full Bleed Blog Layout/full-bleed-blog-FINISHED.html
+
 ## [0.24.0] - 2018-01-29
 ### Added
 - 24 - Responsive Website/responsive-01.css

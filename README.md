@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.24.0
+Release 0.25.0
 
 Having some fun with CSS Grids.
 
@@ -27,3 +27,4 @@ Having some fun with CSS Grids.
 - 22 - Recreating Codepen
 - 23 - Bootstrappy Grid with CSS Variables
 - 24 - Responsive Website
+- 25 - Full Bleed Blog Layout
