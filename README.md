@@ -1,5 +1,5 @@
 # CSS Grid with Wes Bos
-Release 0.25.1
+Release 0.25.2
 
 Having some fun with CSS Grids.
 

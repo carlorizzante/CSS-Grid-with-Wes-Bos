@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.25.2] - 2018-01-29
+### Removed
+- package-lock.json - Known high severity security vulnerability detected in parsejson <=0.0.3 defined in package-lock.json.
+
 ## [0.25.1] - 2018-01-29
 ### Edited
 - README.md - Final editing.
